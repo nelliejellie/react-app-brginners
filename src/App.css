@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.App{
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    background-color: azure;
+    margin: 0%;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: chocolate;
+    margin: 0%;
+    padding: 30px;
+}
+.p-body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-color: darkcyan;
+}
+.react-clicker{
+    background-color:#e8e2de;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.react-clicker-header{
+    text-transform: capitalize;
+    background-color: #5b5754;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.arithmetic-div{
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.counter-div{
+    flex-grow: 3;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    
+    
 }
-
-.App-link {
-  color: #61dafb;
+.plus-counter{
+    background-color: darkgreen;
+    flex-grow: 2;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.minus-counter{
+    background-color:#F0A6AD;
+    flex-grow: 2;
+    
+}
+.reset-counter{
+    background-color: yellow;
+    flex-grow: 2;
+    
+}
+button{
+    margin-top: 10px;
+    border-style: none;
+}
+.button-plus{
+    background-color: darkgreen;
+    font-size: 30px;
+}
+.button-minus{
+    background-color: yellow;
+    font-size: 30px;
+}
+.button-reset{
+    background-color: #F0A6AD;
+    font-size: 30px;
 }
