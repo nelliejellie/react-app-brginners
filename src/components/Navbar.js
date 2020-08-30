@@ -6,10 +6,15 @@ function Navbar() {
     return (
         <div>
             <ul>
+                <Link to='/'>
+                    <li></li>
+                </Link>
                 <Link to='/clicker'>
                     <li>Clicker</li>
                 </Link>
-                <li>Basic clock</li>
+                <Link to='/basic-clock'>
+                <   li>Basic clock</li>
+                </Link>
                 <li>Basic Timer</li>
                 <li>Advanced Timer</li>
                 <li>Movie cards</li>

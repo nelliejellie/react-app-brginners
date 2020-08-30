@@ -89,3 +89,49 @@ button{
     background-color: #F0A6AD;
     font-size: 30px;
 }
+
+/* Basic Clock styling */
+.basic-clock-header{
+    display: flex;
+    justify-content: center;
+    background-color: #343A40;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.basic-clock-body{
+    background-color: #D4D5D6;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+.basic-clock-first{
+    background-color: #D4D5D6;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.clock{
+    background-color: #D4D5D6;
+    display: ;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30vh;
+}
+.clock-inner{
+    background-color: black;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 120px;
+    padding-top:7%;
+    border-radius: 50%;
+    color: white;
+}
+
+
+
+
+

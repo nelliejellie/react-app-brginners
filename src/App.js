@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Clicker from './components/Clicker.js';
+import BasicClock from './components/BasicClock.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/clicker' component={Clicker} />
+          <Route path='/basic-clock' component={BasicClock} />
         </Switch>
       </Router>
     </div>
