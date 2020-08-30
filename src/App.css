@@ -129,7 +129,25 @@ button{
     padding-top:7%;
     border-radius: 50%;
     color: white;
+    font-size: 15px;
 }
+@media screen and (min-width: 900px) {
+    .clock-inner {
+      background-color: black;
+      margin-left: 45%;
+      margin-right: 45%;
+      padding-top:4%;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .clock-inner {
+      background-color: black;
+      margin-left: 35%;
+      margin-right: 35%;
+      padding-top:13%;
+    }
+  }
 
 
 

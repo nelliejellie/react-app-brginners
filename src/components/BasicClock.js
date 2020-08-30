@@ -20,10 +20,20 @@ const imgStyleTwo = {
 export default function BasicClock() {
     const [state, setState] =  useState(false)
 
+
+    const hour = new Date().getHours();
+    const min = new Date().getMinutes();
+    const sec = new Date().getSeconds();
+    const fullTime = new Date().toLocaleString();
+    const timeClock = `${hour}:${min}:${sec}`
+
+
+
     const toggleSwitch = () =>{
         setState(!state)
-        console.log('switch changed')
     }
+    
+    console.log(timeClock)
     return (
         <div className='basic-clock-container'>
             <div className='basic-clock-header'>
@@ -37,7 +47,7 @@ export default function BasicClock() {
                 </div>
             </div>
             <div className='clock'>
-                <div className='clock-inner'>time</div>
+                <div className='clock-inner'>{state ? fullTime : timeClock}</div>
             </div>
         </div>
     )
