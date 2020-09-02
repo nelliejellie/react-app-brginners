@@ -13,9 +13,11 @@ function Navbar() {
                     <li>Clicker</li>
                 </Link>
                 <Link to='/basic-clock'>
-                <   li>Basic clock</li>
+                   <li>Basic clock</li>
                 </Link>
-                <li>Basic Timer</li>
+                <Link to='/basic-timer'>
+                   <li>Basic Timer</li>
+                </Link>
                 <li>Advanced Timer</li>
                 <li>Movie cards</li>
             </ul> 

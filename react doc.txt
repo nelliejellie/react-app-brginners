@@ -1,0 +1,21 @@
+npx create-react-app hello-world
+npm install react-router-dom
+
+npm start
+
+install the es7/react extension
+
+rce = snippet for a class component
+rconst = snippet for a class constructor
+rfce = snippet for functional component
+
+boostrap package
+npm install --save  react-bootstrap
+npm install --save bootstrap
+
+go to src/index.js and import bootstrap
+
+Toggle switch
+npm install react-switch
+import Switch from 'react-switch'
+

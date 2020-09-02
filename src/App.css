@@ -116,7 +116,6 @@ button{
 }
 .clock{
     background-color: #D4D5D6;
-    display: ;
     margin-left: 10px;
     margin-right: 10px;
     height: 30vh;
@@ -148,6 +147,111 @@ button{
       padding-top:13%;
     }
   }
+
+  /* Basic timer styling */
+.timer{
+    background-color: #D4D5D6;
+    height: 34vh;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.timer-inner{
+    background-color: #D4D5D6;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10px;
+    height: 135px;
+    padding-top:7%;
+    border: 5px solid #F0F0F0;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+}
+.stopwatch-rundown{
+    color: #007BFF;
+    position: absolute;
+    left: 47vh;
+    top:35vh;
+}
+.stopwatch-seconds{
+    color: #007BFF;
+}
+.stopwatch-play-and-reset-div{
+    display: flex;
+    justify-content: center;
+}
+.stopwatch-play-button{
+    border:none;
+    background-color:transparent;
+    outline:none;
+    color: #28A745;
+}
+.stopwatch-reset-button{
+    border:none;
+    background-color:transparent;
+    outline:none;
+    color: #007BFF;
+}
+.stopwatch-play{
+    
+}
+.stopwatch-reset{
+    
+}
+
+@media screen and (min-width: 900px) {
+    .timer-inner {
+      background-color: #D4D5D6;
+      margin-left: 45%;
+      margin-right: 45%;
+      padding-top:4%;
+      margin-top: 10px;
+      border: 5px solid#F0F0F0;
+      
+    }
+    .stopwatch-rundown{
+        color: #007BFF;
+        position: absolute;
+        left: 97vh;
+        top:35vh;
+    }
+    .stopwatch-play{
+        margin-left:3px;
+        color: #28A745;
+    }
+    .stopwatch-reset{
+        margin-left: 3px;
+        color: #007BFF;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .timer-inner {
+      background-color: #D4D5D6;
+      margin-left: 35%;
+      margin-right: 35%;
+      padding-top:13%;
+      border: 5px solid#F0F0F0;
+      width:;
+    }
+    .stopwatch-rundown{
+        color: #007BFF;
+        position: absolute;
+        left: 24vh;
+        top:38vh;
+        font-size: 15px;
+    }
+    .stopwatch-play{
+        margin-left: 3px;
+        color: #28A745;
+    }
+    .stopwatch-reset{
+        margin-left: 3px;
+        color: #007BFF;
+    }
+  }
+
 
 
 

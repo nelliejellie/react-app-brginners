@@ -1,21 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Clicker from './components/Clicker.js';
 import BasicClock from './components/BasicClock.js';
+import BasicTimer from './components/BasicTimer.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <p>My react apps as a beginner</p>
+      <p>My react app as a beginner</p>
       <Router>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/clicker' component={Clicker} />
           <Route path='/basic-clock' component={BasicClock} />
+          <Route path='/basic-timer' component={BasicTimer} />
         </Switch>
       </Router>
     </div>
