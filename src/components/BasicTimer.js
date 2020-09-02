@@ -11,6 +11,7 @@ const imgStyle = {
 
 
 export default function BasicTimer() {
+    const Input = <input type="text" name="" id=""/>
     return (
         <div >
             <div className='basic-clock-header'>
@@ -20,7 +21,7 @@ export default function BasicTimer() {
             <div className='timer' >
                 <div className='timer-inner' >
                     <h4 className='stopwatch-rundown'>00:00:00</h4>
-                    <h4 className='stopwatch-seconds'>0</h4>
+                    <h4 className='stopwatch-seconds'>{Input}</h4>
                     <div className='stopwatch-play-and-reset-div'>
                         <div className='stopwatch-play'>
                             <button className='stopwatch-play-button'>play</button>
