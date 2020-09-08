@@ -18,7 +18,9 @@ function Navbar() {
                 <Link to='/basic-timer'>
                    <li>Basic Timer</li>
                 </Link>
-                <li>Advanced Timer</li>
+                <Link to='/fetch-data'>
+                    <li>fetch Data</li>
+                </Link>
                 <li>Movie cards</li>
             </ul> 
         </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Clicker from './components/Clicker.js';
+import fetchData from './components/FetchData.js';
 import BasicClock from './components/BasicClock.js';
 import BasicTimer from './components/BasicTimer.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
