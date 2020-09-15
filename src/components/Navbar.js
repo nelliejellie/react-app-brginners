@@ -21,7 +21,9 @@ function Navbar() {
                 <Link to='/fetch-data'>
                     <li>fetch Data</li>
                 </Link>
-                <li>Movie cards</li>
+                <Link to='/fetch-individual-data'>
+                    <li>fetch individual data</li>
+                </Link>
             </ul> 
         </div>
     )
